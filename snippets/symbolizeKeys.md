@@ -1,13 +1,16 @@
 ---
-title: symbolizeKeys
-tags: object,advanced
+title: Symbolize object keys
+tags: object
+expertise: advanced
+author: chalarangelo
+cover: blog_images/rocky-lake.jpg
 firstSeen: 2021-08-01T05:00:00-04:00
 ---
 
 Creates a new object, converting each key to a `Symbol`.
 
 - Use `Object.keys()` to get the keys of `obj`.
-- Use `Array.prototype.reduce()` and `Symbol()` to create a new object where each key is converted to a `Symbol`.
+- Use `Array.prototype.reduce()` and `Symbol` to create a new object where each key is converted to a `Symbol`.
 
 ```js
 const symbolizeKeys = obj =>

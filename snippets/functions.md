@@ -1,14 +1,16 @@
 ---
-title: functions
-tags: object,function,advanced
+title: Function property names
+tags: object,function
+expertise: advanced
+cover: blog_images/palm-tree-house.jpg
 firstSeen: 2018-01-11T21:18:58+02:00
 lastUpdated: 2020-10-20T11:21:07+03:00
 ---
 
 Gets an array of function property names from own (and optionally inherited) enumerable properties of an object.
 
-- Use `Object.keys(obj)` to iterate over the object's own properties.
-- If `inherited` is `true`, use `Object.getPrototypeOf(obj)` to also get the object's inherited properties.
+- Use `Object.keys()` to iterate over the object's own properties.
+- If `inherited` is `true`, use `Object.getPrototypeOf()` to also get the object's inherited properties.
 - Use `Array.prototype.filter()` to keep only those properties that are functions.
 - Omit the second argument, `inherited`, to not include inherited properties by default.
 

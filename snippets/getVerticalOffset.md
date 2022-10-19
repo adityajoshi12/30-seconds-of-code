@@ -1,6 +1,9 @@
 ---
-title: getVerticalOffset
-tags: browser,beginner
+title: Vertical offset of element
+tags: browser
+expertise: beginner
+author: chalarangelo
+cover: blog_images/waves-from-above-2.jpg
 firstSeen: 2021-01-05T22:41:09+02:00
 lastUpdated: 2021-01-05T22:41:09+02:00
 ---

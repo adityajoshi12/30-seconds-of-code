@@ -1,6 +1,8 @@
 ---
-title: uncurry
-tags: function,advanced
+title: Uncurry function
+tags: function
+expertise: advanced
+cover: blog_images/perfect-timing.jpg
 firstSeen: 2018-02-14T11:56:44+02:00
 lastUpdated: 2020-10-22T20:24:44+03:00
 ---
@@ -10,7 +12,7 @@ Uncurries a function up to depth `n`.
 - Return a variadic function.
 - Use `Array.prototype.reduce()` on the provided arguments to call each subsequent curry level of the function.
 - If the `length` of the provided arguments is less than `n` throw an error.
-- Otherwise, call `fn` with the proper amount of arguments, using `Array.prototype.slice(0, n)`.
+- Otherwise, call `fn` with the proper amount of arguments, using `Array.prototype.slice()`.
 - Omit the second argument, `n`, to uncurry up to depth `1`.
 
 ```js

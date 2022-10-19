@@ -1,17 +1,19 @@
 ---
-title: hashBrowser
-tags: browser,promise,advanced
+title: Calculate SHA-256 hash (browser)
+tags: browser,promise
+expertise: advanced
+cover: blog_images/padlocks.jpg
 firstSeen: 2018-01-17T14:09:01+02:00
-lastUpdated: 2020-10-22T20:23:47+03:00
+lastUpdated: 2021-10-13T19:29:39+02:00
 ---
 
 Creates a hash for a value using the [SHA-256](https://en.wikipedia.org/wiki/SHA-2) algorithm.
 Returns a promise.
 
 - Use the [SubtleCrypto](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto) API to create a hash for the given value.
-- Create a new `TextEncoder` and use it to encode `val`, passing its value to `SubtleCrypto.digest()` to generate a digest of the given data.
+- Create a new `TextEncoder` and use it to encode `val`. Pass its value to `SubtleCrypto.digest()` to generate a digest of the given data.
 - Use `DataView.prototype.getUint32()` to read data from the resolved `ArrayBuffer`.
-- Add the data to an array using `Array.prototype.push()` after converting it to its hexadecimal representation using `Number.prototype.toString(16)`.
+- Convert the data to its hexadecimal representation using `Number.prototype.toString()`. Add the data to an array using `Array.prototype.push()`.
 - Finally, use `Array.prototype.join()` to combine values in the array of `hexes` into a string.
 
 ```js

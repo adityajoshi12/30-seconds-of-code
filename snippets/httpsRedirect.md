@@ -1,6 +1,8 @@
 ---
-title: httpsRedirect
-tags: browser,intermediate
+title: Redirect to HTTPS
+tags: browser
+expertise: intermediate
+cover: blog_images/blue-lake.jpg
 firstSeen: 2017-12-21T08:33:56+02:00
 lastUpdated: 2020-10-22T20:23:47+03:00
 ---
@@ -20,6 +22,6 @@ const httpsRedirect = () => {
 ```
 
 ```js
-httpsRedirect(); 
+httpsRedirect();
 // If you are on http://mydomain.com, you are redirected to https://mydomain.com
 ```

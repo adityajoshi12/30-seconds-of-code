@@ -1,15 +1,17 @@
 ---
-title: yesNo
-tags: string,regexp,intermediate
+title: Check yes/no string
+tags: string,regexp
+expertise: intermediate
 unlisted: true
+cover: blog_images/mask-quiet.jpg
 firstSeen: 2017-12-30T18:35:54+02:00
 lastUpdated: 2021-01-04T13:04:15+02:00
 ---
 
-Returns `true` if the string is `y`/`yes` or `false` if the string is `n`/`no`.
+Returns `true` if the string is `'y'`/`'yes'` or `false` if the string is `'n'`/`'no'`.
 
-- Use `RegExp.prototype.test()` to check if the string evaluates to `y/yes` or `n/no`.
-- Omit the second argument, `def` to set the default answer as `no`.
+- Use `RegExp.prototype.test()` to check if the string evaluates to `'y'`/`'yes'` or `'n'`/`'no'`.
+- Omit the second argument, `def` to set the default answer as `'no'`.
 
 ```js
 const yesNo = (val, def = false) =>

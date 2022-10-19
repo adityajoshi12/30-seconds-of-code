@@ -1,13 +1,15 @@
 ---
-title: isLeapYear
-tags: date,beginner
+title: Check for leap year
+tags: date
+expertise: beginner
+cover: blog_images/flowering-hills.jpg
 firstSeen: 2020-02-05T14:00:03+02:00
 lastUpdated: 2020-10-20T23:02:01+03:00
 ---
 
 Checks if the given `year` is a leap year.
 
-- Use `new Date()`, setting the date to February 29th of the given `year`.
+- Use the `Date` constructor, setting the date to February 29th of the given `year`.
 - Use `Date.prototype.getMonth()` to check if the month is equal to `1`.
 
 ```js

@@ -1,6 +1,8 @@
 ---
-title: toCurrency
-tags: math,string,intermediate
+title: Number to currency string
+tags: math,string
+expertise: intermediate
+cover: blog_images/planning.jpg
 firstSeen: 2018-01-27T17:15:48+02:00
 lastUpdated: 2020-10-22T20:24:30+03:00
 ---

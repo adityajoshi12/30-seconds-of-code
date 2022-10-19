@@ -1,14 +1,16 @@
 ---
-title: unionBy
-tags: array,intermediate
+title: Mapped array union
+tags: array
+expertise: intermediate
+cover: blog_images/lake-church.jpg
 firstSeen: 2018-01-24T12:19:41+02:00
 lastUpdated: 2020-10-22T20:24:44+03:00
 ---
 
 Returns every element that exists in any of the two arrays at least once, after applying the provided function to each array element of both.
 
-- Create a `new Set()` by applying all `fn` to all values of `a`.
-- Create a `new Set()` from `a` and all elements in `b` whose value, after applying `fn` does not match a value in the previously created set.
+- Create a `Set` by applying all `fn` to all values of `a`.
+- Create a `Set` from `a` and all elements in `b` whose value, after applying `fn` does not match a value in the previously created set.
 - Return the last set converted to an array.
 
 ```js

@@ -1,6 +1,8 @@
 ---
-title: createElement
-tags: browser,beginner
+title: Create HTML element
+tags: browser
+expertise: beginner
+cover: blog_images/flower-portrait-4.jpg
 firstSeen: 2018-01-05T18:21:44+02:00
 lastUpdated: 2020-10-19T18:51:03+03:00
 ---
@@ -10,7 +12,7 @@ If the given string contains multiple elements, only the first one will be retur
 
 - Use `Document.createElement()` to create a new element.
 - Use `Element.innerHTML` to set its inner HTML to the string supplied as the argument.
-- Use `ParentNode.firstElementChild` to return the element version of the string.
+- Use `Element.firstElementChild` to return the element version of the string.
 
 ```js
 const createElement = str => {

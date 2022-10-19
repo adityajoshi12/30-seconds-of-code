@@ -1,6 +1,9 @@
 ---
-title: getMinutesDiffBetweenDates
-tags: date,beginner
+title: Date difference in minutes
+tags: date
+expertise: beginner
+author: maciv
+cover: blog_images/flower-vase.jpg
 firstSeen: 2021-04-24T12:48:49+03:00
 lastUpdated: 2021-04-24T12:48:49+03:00
 ---

@@ -1,6 +1,8 @@
 ---
-title: isNumber
-tags: type,math,beginner
+title: Value is number
+tags: type,math
+expertise: beginner
+cover: blog_images/red-petals.jpg
 firstSeen: 2017-12-17T17:55:51+02:00
 lastUpdated: 2020-09-15T16:28:04+03:00
 ---

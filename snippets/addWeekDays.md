@@ -1,6 +1,8 @@
 ---
-title: addWeekDays
-tags: date,intermediate
+title: Add weekdays to date
+tags: date
+expertise: intermediate
+cover: blog_images/digital-nomad-9.jpg
 firstSeen: 2020-10-11T16:51:39+03:00
 lastUpdated: 2021-01-08T00:23:44+02:00
 ---

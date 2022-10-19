@@ -1,6 +1,8 @@
 ---
-title: toSnakeCase
-tags: string,regexp,intermediate
+title: Snakecase string
+tags: string,regexp
+expertise: intermediate
+cover: blog_images/rustic-cup.jpg
 firstSeen: 2017-12-22T18:13:22+02:00
 lastUpdated: 2021-06-28T15:27:44+03:00
 ---

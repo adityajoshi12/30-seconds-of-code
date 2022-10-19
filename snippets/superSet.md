@@ -1,13 +1,16 @@
 ---
-title: superSet
-tags: array,intermediate
+title: Superset of iterable
+tags: array
+expertise: intermediate
+author: maciv
+cover: blog_images/waves-from-above-2.jpg
 firstSeen: 2020-10-11T11:53:19+03:00
 lastUpdated: 2020-10-22T20:24:30+03:00
 ---
 
 Checks if the first iterable is a superset of the second one, excluding duplicate values.
 
-- Use the `new Set()` constructor to create a new `Set` object from each iterable.
+- Use the `Set` constructor to create a new `Set` object from each iterable.
 - Use `Array.prototype.every()` and `Set.prototype.has()` to check that each value in the second iterable is contained in the first one.
 
 ```js

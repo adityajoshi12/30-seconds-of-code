@@ -1,6 +1,9 @@
 ---
-title: padNumber
-tags: string,math,beginner
+title: Pad number
+tags: string,math
+expertise: beginner
+author: maciv
+cover: blog_images/flower-portrait-2.jpg
 firstSeen: 2020-10-03T23:31:08+03:00
 lastUpdated: 2020-10-03T23:31:08+03:00
 ---

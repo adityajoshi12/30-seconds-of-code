@@ -1,13 +1,15 @@
 ---
-title: sdbm
-tags: math,intermediate
+title: Hash string into number
+tags: math
+expertise: intermediate
+cover: blog_images/dark-leaves.jpg
 firstSeen: 2017-12-27T17:12:34+02:00
 lastUpdated: 2020-10-22T20:24:30+03:00
 ---
 
 Hashes the input string into a whole number.
 
-- Use `String.prototype.split('')` and `Array.prototype.reduce()` to create a hash of the input string, utilizing bit shifting.
+- Use `String.prototype.split()` and `Array.prototype.reduce()` to create a hash of the input string, utilizing bit shifting.
 
 ```js
 const sdbm = str => {

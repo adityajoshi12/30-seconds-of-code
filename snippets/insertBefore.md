@@ -1,6 +1,8 @@
 ---
-title: insertBefore
-tags: browser,beginner
+title: Insert HTML string before element
+tags: browser
+expertise: beginner
+cover: blog_images/engine.jpg
 firstSeen: 2018-06-19T20:57:58+03:00
 lastUpdated: 2020-10-20T23:02:01+03:00
 ---

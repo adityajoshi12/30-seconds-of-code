@@ -1,6 +1,8 @@
 ---
-title: uniqueSymmetricDifference
-tags: array,math,intermediate
+title: Array unique symmetric difference
+tags: array,math
+expertise: intermediate
+cover: blog_images/paper-card.jpg
 firstSeen: 2018-08-17T08:37:08+03:00
 lastUpdated: 2020-10-22T20:24:44+03:00
 ---
@@ -8,7 +10,7 @@ lastUpdated: 2020-10-22T20:24:44+03:00
 Returns the unique symmetric difference between two arrays, not containing duplicate values from either array.
 
 - Use `Array.prototype.filter()` and `Array.prototype.includes()` on each array to remove values contained in the other.
-- Create a `new Set()` from the results, removing duplicate values.
+- Create a `Set` from the results, removing duplicate values.
 
 ```js
 const uniqueSymmetricDifference = (a, b) => [

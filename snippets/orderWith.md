@@ -1,6 +1,8 @@
 ---
-title: orderWith
-tags: array,object,intermediate
+title: Order array of objects based on property order
+tags: array,object
+expertise: intermediate
+cover: blog_images/san-francisco-skyline.jpg
 firstSeen: 2020-10-04T12:11:10+03:00
 lastUpdated: 2020-10-21T21:54:53+03:00
 ---
@@ -34,7 +36,7 @@ const users = [
   { name: 'nicky', language: 'Python' },
 ];
 orderWith(users, 'language', ['Javascript', 'TypeScript', 'Java']);
-/* 
+/*
 [
   { name: 'fred', language: 'Javascript' },
   { name: 'frannie', language: 'Javascript' },

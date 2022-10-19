@@ -1,15 +1,18 @@
 ---
-title: runAsync
-tags: browser,function,promise,advanced
+title: Run function asynchronously
+tags: browser,function,promise
+expertise: advanced
+excerpt: Runs a function in a separate thread by using a Web Worker.
+cover: blog_images/purple-sunset.jpg
 firstSeen: 2018-01-02T02:17:52+02:00
 lastUpdated: 2020-10-22T20:24:30+03:00
 ---
 
 Runs a function in a separate thread by using a [Web Worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers), allowing long running functions to not block the UI.
 
-- Create a `new Worker()` using a `Blob` object URL, the contents of which should be the stringified version of the supplied function.
+- Create a `Worker` using a `Blob` object URL, the contents of which should be the stringified version of the supplied function.
 - Immediately post the return value of calling the function back.
-- Return a `new Promise()`, listening for `onmessage` and `onerror` events and resolving the data posted back from the worker, or throwing an error.
+- Return a `Promise`, listening for `onmessage` and `onerror` events and resolving the data posted back from the worker, or throwing an error.
 
 ```js
 const runAsync = fn => {

@@ -1,6 +1,9 @@
 ---
-title: combine
-tags: array,object,intermediate
+title: Combine object arrays
+tags: array,object
+expertise: intermediate
+author: chalarangelo
+cover: blog_images/digital-nomad-6.jpg
 firstSeen: 2020-10-04T00:26:51+03:00
 lastUpdated: 2020-10-08T02:22:39+03:00
 ---

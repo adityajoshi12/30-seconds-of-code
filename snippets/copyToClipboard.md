@@ -1,8 +1,10 @@
 ---
-title: copyToClipboard
-tags: browser,string,event,advanced
+title: Copy to clipboard
+tags: browser,string,event
+expertise: advanced
+cover: blog_images/typing.jpg
 firstSeen: 2017-12-31T11:40:33+02:00
-lastUpdated: 2020-10-22T20:23:47+03:00
+lastUpdated: 2022-01-11T09:32:04+02:00
 ---
 
 Copies a string to the clipboard.
@@ -10,10 +12,10 @@ Only works as a result of user action (i.e. inside a `click` event listener).
 
 - Create a new `<textarea>` element, fill it with the supplied data and add it to the HTML document.
 - Use `Selection.getRangeAt()`to store the selected range (if any).
-- Use `Document.execCommand('copy')` to copy to the clipboard.
+- Use `Document.execCommand()` to copy to the clipboard.
 - Remove the `<textarea>` element from the HTML document.
-- Finally, use `Selection().addRange()` to recover the original selected range (if any).
-- ⚠️ **NOTICE:** The same functionality can be easily implemented by using the new asynchronous Clipboard API, which is still experimental but should be used in the future instead of this snippet. Find out more about it [here](https://github.com/w3c/clipboard-apis/blob/master/explainer.adoc#writing-to-the-clipboard).
+- Finally, use `Selection.addRange()` to recover the original selected range (if any).
+- **Note:** You can use the asynchronous [Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API) in most current browsers. You can find out more about it in the [copyToClipboardAsync snippet](/js/s/copy-to-clipboard-async).
 
 ```js
 const copyToClipboard = str => {

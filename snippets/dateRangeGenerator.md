@@ -1,6 +1,9 @@
 ---
-title: dateRangeGenerator
-tags: date,function,generator,advanced
+title: Date range generator
+tags: date,function,generator
+expertise: advanced
+author: maciv
+cover: blog_images/portal-timelapse.jpg
 firstSeen: 2021-06-21T05:00:00-04:00
 ---
 

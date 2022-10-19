@@ -1,14 +1,16 @@
 ---
-title: arrayToCSV
-tags: array,string,intermediate
+title: Array to CSV
+tags: array,string
+expertise: intermediate
+cover: blog_images/sunrise-over-city.jpg
 firstSeen: 2018-06-27T20:26:43+03:00
 lastUpdated: 2020-11-03T21:55:08+02:00
 ---
 
 Converts a 2D array to a comma-separated values (CSV) string.
 
-- Use `Array.prototype.map()` and `Array.prototype.join(delimiter)` to combine individual 1D arrays (rows) into strings.
-- Use `Array.prototype.join('\n')` to combine all rows into a CSV string, separating each row with a newline.
+- Use `Array.prototype.map()` and `Array.prototype.join()` to combine individual 1D arrays (rows) into strings, using the provided `delimiter`.
+- Use `Array.prototype.join()` to combine all rows into a CSV string, separating each row with a newline (`\n`).
 - Omit the second argument, `delimiter`, to use a default delimiter of `,`.
 
 ```js

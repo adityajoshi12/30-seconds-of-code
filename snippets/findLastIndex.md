@@ -1,6 +1,8 @@
 ---
-title: findLastIndex
-tags: array,intermediate
+title: Find last matching index
+tags: array
+expertise: intermediate
+cover: blog_images/taking-photos.jpg
 firstSeen: 2018-01-24T13:01:51+02:00
 lastUpdated: 2020-10-22T20:23:47+03:00
 ---

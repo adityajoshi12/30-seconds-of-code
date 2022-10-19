@@ -1,6 +1,8 @@
 ---
-title: is
-tags: type,array,intermediate
+title: Check if value is of type
+tags: type,array
+expertise: intermediate
+cover: blog_images/coffee-phone-tray.jpg
 firstSeen: 2018-01-17T21:23:46+02:00
 lastUpdated: 2020-10-20T23:02:01+03:00
 ---
@@ -8,7 +10,7 @@ lastUpdated: 2020-10-20T23:02:01+03:00
 Checks if the provided value is of the specified type.
 
 - Ensure the value is not `undefined` or `null` using `Array.prototype.includes()`.
-- Compare the `constructor` property on the value with `type` to check if the provided value is of the specified `type`.
+- Use `Object.prototype.constructor` to compare the constructor property on the value with `type` to check if the provided value is of the specified `type`.
 
 ```js
 const is = (type, val) => ![, null].includes(val) && val.constructor === type;

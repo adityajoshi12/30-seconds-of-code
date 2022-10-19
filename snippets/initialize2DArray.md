@@ -1,6 +1,8 @@
 ---
-title: initialize2DArray
-tags: array,intermediate
+title: Initialize 2D array
+tags: array
+expertise: intermediate
+cover: blog_images/cloudy-rock-formation.jpg
 firstSeen: 2017-12-19T23:38:18+02:00
 lastUpdated: 2020-10-20T23:02:01+03:00
 ---

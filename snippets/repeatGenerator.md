@@ -1,6 +1,9 @@
 ---
-title: repeatGenerator
-tags: function,generator,advanced
+title: Repeat generator
+tags: function,generator
+expertise: advanced
+author: chalarangelo
+cover: blog_images/white-flower.jpg
 firstSeen: 2020-10-11T17:05:48+03:00
 lastUpdated: 2020-10-11T17:05:48+03:00
 ---

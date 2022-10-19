@@ -1,6 +1,8 @@
 ---
-title: indentString
-tags: string,beginner
+title: Indent string
+tags: string
+expertise: beginner
+cover: blog_images/clutter.jpg
 firstSeen: 2018-09-24T22:14:27+03:00
 lastUpdated: 2020-11-01T20:50:57+02:00
 ---

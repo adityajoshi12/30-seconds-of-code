@@ -1,6 +1,8 @@
 ---
-title: composeRight
-tags: function,intermediate
+title: Reverse compose functions
+tags: function
+expertise: intermediate
+cover: blog_images/rocky-beach.jpg
 firstSeen: 2018-01-23T22:12:56+02:00
 lastUpdated: 2020-10-22T20:23:47+03:00
 ---

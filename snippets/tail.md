@@ -1,13 +1,16 @@
 ---
-title: tail
-tags: array,beginner
+title: Array tail
+tags: array
+expertise: beginner
+cover: blog_images/waves-from-above.jpg
 firstSeen: 2017-12-17T17:55:51+02:00
 lastUpdated: 2020-10-22T20:24:30+03:00
 ---
 
 Returns all elements in an array except for the first one.
 
-- Return `Array.prototype.slice(1)` if `Array.prototype.length` is more than `1`, otherwise, return the whole array.
+- Use `Array.prototype.slice()`to return the array without the first element if `Array.prototype.length` is more than `1`.
+- Otherwise, return the whole array.
 
 ```js
 const tail = arr => (arr.length > 1 ? arr.slice(1) : arr);

@@ -1,6 +1,8 @@
 ---
-title: includesAll
-tags: array,beginner
+title: Check if array includes all values
+tags: array
+expertise: beginner
+cover: blog_images/tomatoes.jpg
 firstSeen: 2019-11-04T21:37:16+02:00
 lastUpdated: 2020-10-20T23:02:01+03:00
 ---

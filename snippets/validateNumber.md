@@ -1,6 +1,8 @@
 ---
-title: validateNumber
-tags: math,intermediate
+title: Validate number
+tags: math
+expertise: intermediate
+cover: blog_images/flower-portrait-9.jpg
 firstSeen: 2017-12-17T17:55:51+02:00
 lastUpdated: 2020-10-22T20:23:26+03:00
 ---
@@ -8,9 +10,9 @@ lastUpdated: 2020-10-22T20:23:26+03:00
 Checks if the given value is a number.
 
 - Use `parseFloat()` to try to convert `n` to a number.
-- Use `!Number.isNaN()` to check if `num` is a number.
+- Use `Number.isNaN()` and logical not (`!`) operator to check if `num` is a number.
 - Use `Number.isFinite()` to check if `num` is finite.
-- Use `Number()` and the loose equality operator (`==`) to check if the coercion holds.
+- Use `Number` and the loose equality operator (`==`) to check if the coercion holds.
 
 ```js
 const validateNumber = n => {

@@ -1,6 +1,9 @@
 ---
-title: haveSameContents
-tags: array,intermediate
+title: Check if arrays have same contents
+tags: array
+expertise: intermediate
+author: chalarangelo
+cover: blog_images/interior-15.jpg
 firstSeen: 2020-01-05T21:40:39+02:00
 lastUpdated: 2020-10-19T22:49:51+03:00
 ---

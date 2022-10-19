@@ -1,8 +1,10 @@
 ---
-title: throttle
-tags: function,advanced
+title: Throttle function
+tags: function
+expertise: advanced
+cover: blog_images/waves-from-above.jpg
 firstSeen: 2018-01-28T15:23:01+02:00
-lastUpdated: 2020-09-15T16:28:04+03:00
+lastUpdated: 2021-10-13T19:29:39+02:00
 ---
 
 Creates a throttled function that only invokes the provided function at most once per every `wait` milliseconds
@@ -11,7 +13,7 @@ Creates a throttled function that only invokes the provided function at most onc
 - Use `Function.prototype.apply()` to apply the `this` context to the function and provide the necessary `arguments`.
 - Use `Date.now()` to keep track of the last time the throttled function was invoked.
 - Use a variable, `inThrottle`, to prevent a race condition between the first execution of `fn` and the next loop.
-- Omit the second argument, `wait`, to set the timeout at a default of 0 ms.
+- Omit the second argument, `wait`, to set the timeout at a default of `0` ms.
 
 ```js
 const throttle = (fn, wait) => {

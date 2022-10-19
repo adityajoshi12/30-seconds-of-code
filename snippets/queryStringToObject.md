@@ -1,6 +1,8 @@
 ---
-title: queryStringToObject
-tags: object,intermediate
+title: Query string to object
+tags: object
+expertise: intermediate
+cover: blog_images/dark-mode.jpg
 firstSeen: 2020-10-20T20:25:32+03:00
 lastUpdated: 2020-11-03T22:11:18+02:00
 ---
@@ -8,7 +10,7 @@ lastUpdated: 2020-11-03T22:11:18+02:00
 Generates an object from the given query string or URL.
 
 - Use `String.prototype.split()` to get the params from the given `url`.
-- Use `new URLSearchParams()` to create an appropriate object and convert it to an array of key-value pairs using the spread operator (`...`).
+- Use the `URLSearchParams` constructor to create an appropriate object and convert it to an array of key-value pairs using the spread operator (`...`).
 - Use `Array.prototype.reduce()` to convert the array of key-value pairs into an object.
 
 ```js

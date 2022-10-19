@@ -1,11 +1,13 @@
 ---
-title: invertKeyValues
-tags: object,advanced
+title: Invert object
+tags: object
+expertise: advanced
+cover: blog_images/pineapple-on-green.jpg
 firstSeen: 2018-01-01T17:33:46+02:00
 lastUpdated: 2020-10-20T23:02:01+03:00
 ---
 
-Inverts the key-value pairs of an object, without mutating it. 
+Inverts the key-value pairs of an object, without mutating it.
 
 - Use `Object.keys()` and `Array.prototype.reduce()` to invert the key-value pairs of an object and apply the function provided (if any).
 - Omit the second argument, `fn`, to get the inverted keys without applying a function to them.

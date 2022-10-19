@@ -1,6 +1,8 @@
 ---
-title: toCharArray
-tags: string,beginner
+title: String to character array
+tags: string
+expertise: beginner
+cover: blog_images/waving-over-lake.jpg
 firstSeen: 2020-10-08T15:17:22+03:00
 lastUpdated: 2020-10-08T15:17:22+03:00
 ---

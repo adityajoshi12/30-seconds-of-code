@@ -1,6 +1,8 @@
 ---
-title: gcd
-tags: math,algorithm,recursion,intermediate
+title: Greatest common divisor
+tags: math,algorithm,recursion
+expertise: intermediate
+cover: blog_images/flower-pond.jpg
 firstSeen: 2017-12-17T17:55:51+02:00
 lastUpdated: 2020-12-29T12:36:50+02:00
 ---
@@ -9,7 +11,7 @@ Calculates the greatest common divisor between two or more numbers/arrays.
 
 - The inner `_gcd` function uses recursion.
 - Base case is when `y` equals `0`. In this case, return `x`.
-- Otherwise, return the GCD of `y` and the remainder of the division `x/y`.
+- Otherwise, return the GCD of `y` and the remainder of the division `x / y`.
 
 ```js
 const gcd = (...arr) => {

@@ -1,13 +1,16 @@
 ---
-title: isDisjoint
-tags: array,intermediate
+title: Disjointed iterables
+tags: array
+expertise: intermediate
+author: maciv
+cover: blog_images/interior-9.jpg
 firstSeen: 2020-10-11T11:53:01+03:00
 lastUpdated: 2020-10-11T11:53:01+03:00
 ---
 
 Checks if the two iterables are disjointed (have no common values).
 
-- Use the `new Set()` constructor to create a new `Set` object from each iterable.
+- Use the `Set` constructor to create a new `Set` object from each iterable.
 - Use `Array.prototype.every()` and `Set.prototype.has()` to check that the two iterables have no common values.
 
 ```js

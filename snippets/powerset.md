@@ -1,8 +1,10 @@
 ---
-title: powerset
-tags: math,algorithm,beginner
+title: Powerset
+tags: math,algorithm
+expertise: beginner
+cover: blog_images/new-plant.jpg
 firstSeen: 2017-12-07T14:41:33+02:00
-lastUpdated: 2020-12-28T13:49:24+02:00
+lastUpdated: 2021-09-27T15:27:07+02:00
 ---
 
 Returns the powerset of a given array of numbers.
@@ -11,9 +13,9 @@ Returns the powerset of a given array of numbers.
 
 ```js
 const powerset = arr =>
-  arr.reduce((a, v) => a.concat(a.map(r => [v].concat(r))), [[]]);
+  arr.reduce((a, v) => a.concat(a.map(r => r.concat(v))), [[]]);
 ```
 
 ```js
-powerset([1, 2]); // [[], [1], [2], [2, 1]]
+powerset([1, 2]); // [[], [1], [2], [1, 2]]
 ```
